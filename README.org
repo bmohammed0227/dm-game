@@ -20,3 +20,18 @@
   - [ ] Créer la scène ou le joueur doit deviner les achats
   - [ ] Implementer l'algorithme A priori pour avoir la bonne réponse
   - [ ] Calculer le score du joueur et lui donner une not
+
+* Tiles
+| item      | image                 | item     | image                | item       | image                  |
+|-----------+-----------------------+----------+----------------------+------------+------------------------|
+| biscuit   | [[./tiles/biscuit.png]]   | fish     | [[./tiles/fish.png]]     | mushroom   | [[./tiles/mushroom.png]]   |
+| burger    | [[./tiles/burger.png]]    | fruits   | [[./tiles/fruits.png]]   | pistachio  | [[./tiles/pistachio.png]]  |
+| cheese    | [[./tiles/cheese.png]]    | honey    | [[./tiles/honey.png]]    | pizza      | [[./tiles/pizza.png]]      |
+| chicken   | [[./tiles/chicken.png]]   | icecream | [[./tiles/icecream.png]] | shrimp     | [[./tiles/shrimp.png]]     |
+| chocolate | [[./tiles/chocolate.png]] | meat     | [[./tiles/meat.png]]     | soda       | [[./tiles/soda.png]]       |
+| croissant | [[./tiles/croissant.png]] | medicine | [[./tiles/medicine.png]] | sweets     | [[./tiles/sweets.png]]     |
+| egg       | [[./tiles/egg.png]]       | milk     | [[./tiles/milk.png]]     | vegetables | [[./tiles/vegetables.png]] |
+
+* Tileset
+[[./tiles/tileset.png]]
+
