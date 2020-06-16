@@ -1,0 +1,22 @@
+
+* Introduction
+  Le projet est un jeu qui a comme but de deviner les achats des clients dans une super-marché, le jeu implémente l'algorithme a priori pour déterminer les bonnes réponses.
+
+* Description
+  1. La scène principale est le comptoir du super-marché.
+  2. Les clients viennent pour payer leurs achats.
+  3. Les achats des clients ne sont pas visibles pour le joueur.
+  4. À l'arrivée d'un client au comptoir la scène se met en pause et le joueur devra deviner les achats du client dans n'importe quel ordre.
+  5. Le joueur aura des choix dont l'un entre eux et vrai et les autres sont fausses.
+  6. Le joueur aura un score qui dépend de ses réponses.
+  7. Si la réponse est correcte le joueur aura 1 point et puis ça se double à chaque fois qu'il continue à répondre correctement.
+  8. Si la réponse est fausse le joueur n'aura aucun point et il perd l'enchainement des réponses correctes.
+  
+* TODO [0/8] Tasks
+  - [ ] Créer la scène principale
+  - [ ] Faire Generer les clients
+  - [ ] Déterminer la trajectoire des clients (Aller au comptoir, Sortir du super-marché)
+  - [ ] Générer les achats pour chaque client
+  - [ ] Créer la scène ou le joueur doit deviner les achats
+  - [ ] Implementer l'algorithme A priori pour avoir la bonne réponse
+  - [ ] Calculer le score du joueur et lui donner une not
