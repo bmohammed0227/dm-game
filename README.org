@@ -12,7 +12,7 @@
   7. Si la réponse est correcte le joueur aura 1 point et puis ça se double à chaque fois qu'il continue à répondre correctement.
   8. Si la réponse est fausse le joueur n'aura aucun point et il perd l'enchainement des réponses correctes.
   
-* TODO [0/8] Tasks
+* TODO [0/7] Tasks
   1) [ ] Créer la scène principale
      #+begin_quote
      Préparer la scène principale et la générer au début du code pour qu'elle apparaisse quand le je commence.
