@@ -12,16 +12,36 @@
   7. Si la réponse est correcte le joueur aura 1 point et puis ça se double à chaque fois qu'il continue à répondre correctement.
   8. Si la réponse est fausse le joueur n'aura aucun point et il perd l'enchainement des réponses correctes.
   
-* TODO [0/8] Tasks
-  - [ ] Créer la scène principale
-  - [ ] Faire Generer les clients
-  - [ ] Déterminer la trajectoire des clients (Aller au comptoir, Sortir du super-marché)
-  - [ ] Générer les achats pour chaque client
-  - [ ] Créer la scène ou le joueur doit deviner les achats
-  - [ ] Implementer l'algorithme A priori pour avoir la bonne réponse
-  - [ ] Calculer le score du joueur et lui donner une not
+* TODO [0/7] Tasks
+  1) [ ] Créer la scène principale
+     #+begin_comment
+     Préparer la scène principale et la générer au début du code pour qu'elle apparaisse quand le je commence.
+     #+end_comment
+  2) [ ] Creer une liste des transaction
+     #+begin_comment
+     La liste des transactions doit contenir des transactions qui ont un sens de façon que l'algorithme a priori pourra analyser une liste des transactions et en faire sortir des itemsets.
+     #+end_comment
+  3) [ ] Générer les achats pour chaque client
+     #+begin_comment
+     Créer une fonction qui génère une liste des achats de chaque client, cette liste va choisir par au hasard une transaction de la liste de transaction déjà préparée dans la tâche 2.
+     #+end_comment
+  4) [ ] Créer le jeu de devinant
+     #+begin_comment
+     Créer la scène d'un jeu de devinant où le joueur aura le choix entre un nombre de produits dont un seul est parmi les achats du client et les autres ne le sont pas et puis on compare la réponse du joueur avec les achats du joueur et enfin on répète le processus pour chaque produit que le client a acheté pour donner un score au joueur.
+     #+end_comment
+  5) [ ] Faire générer les clients
+     #+begin_comment
+     Créer une fonction qui génère un des 4 personnages comme client et lui affecter quelques produits comme achats ce qui devra être faite dans la tâche 3 faire marcher de façon qu'il entre le magasin puis marche dans les couloirs et puis il va vers le vendeur et puis on appelle la fonction qui génère une nouvelle scène pour la tache 4, et puis le client sort du magasin et on génère un autre ou bien le jeu se termine.
+     #+end_comment
+  6) [ ] Implementer l'algorithme Apriori
+     #+begin_comment
+     L'algorithme aura comme entree la liste des transactions déjà sauvegardées avant l'arrivée des clients (et peut-être aussi celles des clients déjà sortis) et aura comme sorti une réponse qui représente un produit qui pense que le client a achète, il doit tenir au compte la liste des choix disponible au joueur.
+     #+end_comment
+  7) [ ] Pas encore prête
 
 * Tiles
+  Credits : [[https://dribbble.com/grlmc][grlmc from Dribble]] 
+  
 | item      | image                 | item     | image                | item       | image                  |
 |-----------+-----------------------+----------+----------------------+------------+------------------------|
 | biscuit   | [[./tiles/biscuit.png]]   | fish     | [[./tiles/fish.png]]     | mushroom   | [[./tiles/mushroom.png]]   |
@@ -33,5 +53,26 @@
 | egg       | [[./tiles/egg.png]]       | milk     | [[./tiles/milk.png]]     | vegetables | [[./tiles/vegetables.png]] |
 
 * Tileset
+  Credits : [[dribbble.com/grlmc][grlmc from Dribble]] 
+  
 [[./tiles/tileset.png]]
 
+* Sprites
+  Made using [[www.mmorpgmakerxb.com/p/characters-sprites-generator][mmorpgmakerxb]]   
+ 
+** Character 1
+   [[./sprites/character_1/character_1.png]]
+
+** Character 2
+   [[./sprites/character_2/character_2.png]]
+
+** Character 3
+   [[./sprites/character_3/character_3.png]]
+
+** Character 4
+   [[./sprites/character_4/character_4.png]]
+
+* Background
+  Credits :  [[https://www.flickr.com/photos/_ladyamalthea_/][Lady Amalthea]]
+
+  [[./tiles/background.png]]
