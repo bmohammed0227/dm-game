@@ -12,7 +12,7 @@
   7. Si la réponse est correcte le joueur aura 1 point et puis ça se double à chaque fois qu'il continue à répondre correctement.
   8. Si la réponse est fausse le joueur n'aura aucun point et il perd l'enchainement des réponses correctes.
   
-* TODO [2/7] Tasks
+* TODO [3/7] Tasks
   1) [X] Créer la scène principale
      #+begin_quote
      Préparer la scène principale et la générer au début du code pour qu'elle apparaisse quand le je commence.
@@ -33,7 +33,7 @@
      #+begin_quote
      Créer une fonction qui génère un des 4 personnages comme client et lui affecter quelques produits comme achats ce qui devra être faite dans la tâche 3 faire marcher de façon qu'il entre le magasin puis marche dans les couloirs et puis il va vers le vendeur et puis on appelle la fonction qui génère une nouvelle scène pour la tache 4, et puis le client sort du magasin et on génère un autre ou bien le jeu se termine.
      #+end_quote
-  6) [ ] Implementer l'algorithme Apriori
+  6) [X] Implementer l'algorithme Apriori
      #+begin_quote
      L'algorithme aura comme entree la liste des transactions déjà sauvegardées avant l'arrivée des clients (et peut-être aussi celles des clients déjà sortis) et aura comme sorti une réponse qui représente un produit qui pense que le client a achète, il doit tenir au compte la liste des choix disponible au joueur.
      #+end_quote
