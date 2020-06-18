@@ -12,8 +12,8 @@
   7. Si la réponse est correcte le joueur aura 1 point et puis ça se double à chaque fois qu'il continue à répondre correctement.
   8. Si la réponse est fausse le joueur n'aura aucun point et il perd l'enchainement des réponses correctes.
   
-* TODO [0/7] Tasks
-  1) [ ] Créer la scène principale
+* TODO [2/7] Tasks
+  1) [X] Créer la scène principale
      #+begin_quote
      Préparer la scène principale et la générer au début du code pour qu'elle apparaisse quand le je commence.
      #+end_quote
@@ -29,7 +29,7 @@
      #+begin_quote
      Créer la scène d'un jeu de devinant où le joueur aura le choix entre un nombre de produits dont un seul est parmi les achats du client et les autres ne le sont pas et puis on compare la réponse du joueur avec les achats du joueur et enfin on répète le processus pour chaque produit que le client a acheté pour donner un score au joueur.
      #+end_quote
-  5) [ ] Faire générer les clients
+  5) [X] Faire générer les clients
      #+begin_quote
      Créer une fonction qui génère un des 4 personnages comme client et lui affecter quelques produits comme achats ce qui devra être faite dans la tâche 3 faire marcher de façon qu'il entre le magasin puis marche dans les couloirs et puis il va vers le vendeur et puis on appelle la fonction qui génère une nouvelle scène pour la tache 4, et puis le client sort du magasin et on génère un autre ou bien le jeu se termine.
      #+end_quote
@@ -67,3 +67,6 @@
   Credits :  [[https://www.flickr.com/photos/_ladyamalthea_/][Lady Amalthea]]
 
   [[./tiles/background.png]]
+
+* Music
+  Credits : [[https://www.youtube.com/channel/UCNRFAB4ffkPODZd_PZQvgrw][Dj CUTMAN]]
